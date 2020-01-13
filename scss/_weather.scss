@@ -1,0 +1,94 @@
+.weather{
+	display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+background-color:#ffe579;
+height:100vh;
+width: 100vw;
+justify-items: center;
+align-items: center;
+position: fixed;
+transform: translateY(100%);
+transition: transform 1s;
+
+	p{
+		font-size: 3rem;
+		font-weight: 600;
+	}
+
+	h1{
+		font-family: 'Nunito', sans-serif;
+		font-size: 3rem;
+		color:#414042;
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.today-high{
+		grid-column: 1;
+		grid-row: 3;
+
+	}
+
+	.today-icon{
+		color:#414042;
+		grid-column: 2;
+		grid-row: 2;
+		img{
+			width: 8rem;
+			height: 8rem;
+		}
+	}
+
+	.today-low{
+		grid-column: 3;
+		grid-row: 3;
+
+	}
+
+	.mondaytext{
+	font-size: 2rem;
+	text-align: center;
+	grid-column: 1 / span 3;
+	grid-row: 2;
+	width: 90%;
+	}
+
+	.button2{
+	width: 300px;
+	font-family: 'Nunito', sans-serif;
+	background-color: #FFE579;
+	color:#414042;
+	font-weight: 900;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-decoration: none;
+	text-align: center;
+  color: #414042;
+  border: 4px solid #414042;
+  grid-column: 1 / span 3;
+  grid-row: 4;
+  justify-self: center;
+  align-self: center;
+}
+
+a:link{
+	color: #414042;
+}
+
+a:visited{
+	color: #414042;
+}
+
+a:hover{
+	color: #7A5FC4;
+}
+}
+
+.slide {
+  transform: translateY(-100%);
+}
+
+
+

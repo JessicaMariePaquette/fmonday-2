@@ -1,0 +1,296 @@
+.about {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: #414042;
+  background-color: #ffe579;
+  position: fixed;
+  transform: translateY(100%);
+  transition: transform 1s;
+  height: 100vh;
+  width: 100vw; }
+  .about h1 {
+    font-size: 3rem;
+    padding-bottom: 4rem; }
+  .about p {
+    font-size: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8rem; }
+
+.button4 {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFE579;
+  color: #414042;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  text-decoration: none;
+  text-align: center;
+  color: #414042;
+  border: 4px solid #414042; }
+
+.load {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  background-color: #ffe579;
+  height: 100vh;
+  width: 100vw; }
+  .load img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+    grid-row: 1; }
+  .load .button1 {
+    width: 300px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFE579;
+    color: #414042;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: #414042;
+    border: 4px solid #414042;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center; }
+  .load a:link {
+    color: #414042; }
+  .load a:visited {
+    color: #414042; }
+  .load a:hover {
+    color: #7A5FC4; }
+
+body {
+  height: 100vh; }
+
+p {
+  font-family: 'Nunito', sans-serif;
+  color: #414042; }
+
+.weather {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #ffe579;
+  height: 100vh;
+  width: 100vw;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+  transform: translateY(100%);
+  transition: transform 1s; }
+  .weather p {
+    font-size: 3rem;
+    font-weight: 600; }
+  .weather h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    color: #414042;
+    grid-column: 2;
+    grid-row: 1; }
+  .weather .today-high {
+    grid-column: 1;
+    grid-row: 3; }
+  .weather .today-icon {
+    color: #414042;
+    grid-column: 2;
+    grid-row: 2; }
+    .weather .today-icon img {
+      width: 8rem;
+      height: 8rem; }
+  .weather .today-low {
+    grid-column: 3;
+    grid-row: 3; }
+  .weather .mondaytext {
+    font-size: 2rem;
+    text-align: center;
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    width: 90%; }
+  .weather .button2 {
+    width: 300px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFE579;
+    color: #414042;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: #414042;
+    border: 4px solid #414042;
+    grid-column: 1 / span 3;
+    grid-row: 4;
+    justify-self: center;
+    align-self: center; }
+  .weather a:link {
+    color: #414042; }
+  .weather a:visited {
+    color: #414042; }
+  .weather a:hover {
+    color: #7A5FC4; }
+
+.slide {
+  transform: translateY(-100%); }
+
+.week {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #ffe579;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  transform: translateY(100%);
+  transition: transform 1s;
+  text-align: center; }
+  .week p {
+    font-size: 1.5rem; }
+
+.button3 {
+  width: 300px;
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFE579;
+  color: #414042;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: #414042;
+  border: 4px solid #414042;
+  grid-row: 2;
+  grid-column: 1 / span 6;
+  justify-self: center;
+  align-self: center;
+  grid-row: 7; }
+
+.day-1 {
+  grid-column: 2;
+  grid-row: 1; }
+
+.day-2 {
+  grid-column: 5;
+  grid-row: 1; }
+
+.day-3 {
+  grid-column: 2;
+  grid-row: 3; }
+
+.day-4 {
+  grid-column: 5;
+  grid-row: 3; }
+
+.day-5 {
+  grid-column: 2;
+  grid-row: 5; }
+
+.day-6 {
+  grid-column: 5;
+  grid-row: 5; }
+
+.high-1 {
+  grid-row: 2;
+  grid-column: 1; }
+
+.high-2 {
+  grid-row: 2;
+  grid-column: 4; }
+
+.high-3 {
+  grid-row: 4;
+  grid-column: 1; }
+
+.high-4 {
+  grid-row: 4;
+  grid-column: 4; }
+
+.high-5 {
+  grid-row: 6;
+  grid-column: 1; }
+
+.high-6 {
+  grid-row: 6;
+  grid-column: 4; }
+
+.icon-1 {
+  grid-row: 2;
+  grid-column: 2; }
+  .icon-1 img {
+    width: 3rem;
+    height: 3rem; }
+
+.icon-2 {
+  grid-row: 2;
+  grid-column: 5; }
+  .icon-2 img {
+    width: 3rem;
+    height: 3rem; }
+
+.icon-3 {
+  grid-row: 4;
+  grid-column: 2; }
+  .icon-3 img {
+    width: 3rem;
+    height: 3rem; }
+
+.icon-4 {
+  grid-row: 4;
+  grid-column: 5; }
+  .icon-4 img {
+    width: 3rem;
+    height: 3rem; }
+
+.icon-5 {
+  grid-row: 6;
+  grid-column: 2; }
+  .icon-5 img {
+    width: 3rem;
+    height: 3rem; }
+
+.icon-6 {
+  grid-row: 6;
+  grid-column: 5; }
+  .icon-6 img {
+    width: 3rem;
+    height: 3rem; }
+
+.low-1 {
+  grid-row: 2;
+  grid-column: 3; }
+
+.low-2 {
+  grid-row: 2;
+  grid-column: 6; }
+
+.low-3 {
+  grid-row: 4;
+  grid-column: 3; }
+
+.low-4 {
+  grid-row: 4;
+  grid-column: 6; }
+
+.low-5 {
+  grid-row: 6;
+  grid-column: 3; }
+
+.low-6 {
+  grid-row: 6;
+  grid-column: 6; }
+
+.slide {
+  transform: translateY(-100%); }
+
+/*# sourceMappingURL=main.css.map */

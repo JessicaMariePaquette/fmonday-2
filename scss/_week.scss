@@ -1,0 +1,187 @@
+.week{
+	display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background-color:#ffe579;
+height:100vh;
+width:100vw;
+	position: fixed;
+transform: translateY(100%);
+transition: transform 1s;
+text-align: center;
+
+p{
+	font-size: 1.5rem;
+}
+}
+
+.button3{
+	width: 300px;
+	font-family: 'Nunito', sans-serif;
+	background-color: #FFE579;
+	color:#414042;
+	font-weight: 900;
+	font-size: 1.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-decoration: none;
+	text-align: center;
+  color: #414042;
+  border: 4px solid #414042;
+  grid-row: 2;
+  grid-column: 1 / span 6;
+  justify-self: center;
+  align-self: center;
+  grid-row: 7;
+}
+
+.day-1{
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.day-2{
+	grid-column: 5;
+	grid-row: 1;
+}
+
+.day-3{
+	grid-column: 2;
+	grid-row: 3;
+	
+}
+
+.day-4{
+	grid-column: 5;
+	grid-row: 3;
+}
+
+.day-5{
+	grid-column: 2;
+	grid-row: 5;
+}
+
+.day-6{
+	grid-column: 5;
+	grid-row:5;
+
+}
+
+.high-1{
+	grid-row:2;
+	grid-column:1;
+}
+
+.high-2{
+	grid-row:2;
+	grid-column:4;
+}
+
+.high-3{
+	grid-row:4;
+	grid-column:1;
+}
+
+.high-4{
+	grid-row:4;
+	grid-column:4;
+}
+
+.high-5{
+	grid-row:6;
+	grid-column:1;
+}
+
+.high-6{
+	grid-row:6;
+	grid-column:4;
+}
+
+.icon-1{
+	grid-row:2;
+	grid-column:2;
+	img{
+			width: 3rem;
+			height: 3rem;
+		}
+}
+
+.icon-2{
+	grid-row:2;
+	grid-column:5;
+	img{
+			width: 3rem;
+			height: 3rem;
+		}
+
+}
+
+.icon-3{
+	grid-row:4;
+	grid-column:2;
+	img{
+			width: 3rem;
+			height: 3rem;
+		}
+}
+
+.icon-4{
+	grid-row:4;
+	grid-column:5;
+	img{
+			width: 3rem;
+			height: 3rem;
+		}
+}
+
+.icon-5{
+	grid-row:6;
+	grid-column:2;
+	img{
+			width: 3rem;
+			height: 3rem;
+		}
+}
+
+.icon-6{
+	grid-row:6;
+	grid-column:5;
+	img{
+			width: 3rem;
+			height: 3rem;
+		}
+}
+
+.low-1{
+	grid-row:2;
+	grid-column:3;
+}
+
+.low-2{
+	grid-row:2;
+	grid-column:6;
+}
+
+.low-3{
+	grid-row:4;
+	grid-column:3;
+}
+
+.low-4{
+	grid-row:4;
+	grid-column:6;
+}
+
+.low-5{
+	grid-row:6;
+	grid-column:3;
+}
+
+.low-6{
+	grid-row:6;
+	grid-column:6;
+}
+
+.slide {
+  transform: translateY(-100%);
+}
